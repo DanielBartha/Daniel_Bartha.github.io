@@ -93,3 +93,42 @@ nav img {
     background: #add8e6;
     transition: 1s;
 }
+
+.pic1 {
+    width: 230px;
+    height: 300px;
+}
+
+.pic2 {
+    height: 300px;
+    width: 480px;
+}
+
+.images {
+    padding-top: 100px;
+    padding-left: 40px;
+    display: flex;
+}
+
+.images p {
+    padding-left: 40px;
+    font-size: large;
+    color: #fff;
+}
+
+.pageTitle {
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    text-decoration-color: #add8e6;
+}
+
+.paragraph ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    padding-top: 10px;
+    color: #fff;
+}
