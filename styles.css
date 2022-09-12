@@ -132,3 +132,62 @@ nav img {
     padding-top: 10px;
     color: #fff;
 }
+
+.firstRow {
+    color: black;
+    background-color: #add8e6;
+}
+
+.oneRow {
+    background-color: #007cc8;
+}
+
+.twoRow {
+    background-color: #0092eb;
+}
+
+.threeRow {
+    background-color: #0ea4ff;
+}
+
+.fourRow {
+    background-color: #31b1ff;
+}
+
+.EyRow {
+    background-color: #53beff;
+}
+
+.wRow {
+    background-color: #75cbff;
+}
+
+.progress {
+    margin: 50px auto;
+    padding: 2px;
+    width: 100%;
+    max-width: 500px;
+    border: 3px solid #007cc8;
+    height: 30px;
+    border-radius: 6%;
+  }
+  
+  .progress .progress__bar {
+    height: 100%;
+    width: 0%;
+    background-color: #31b1ff;
+    animation: fill-bar 20s infinite;
+    border-radius: 6%;
+  }
+  
+  @keyframes fill-bar {
+    from {width: 0%;}
+    to {width: 100%;}
+  }
+
+  .h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+  }
