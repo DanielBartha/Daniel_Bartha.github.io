@@ -185,9 +185,17 @@ nav img {
     to {width: 40%;}
   }
 
-  .h1 {
+  .h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
     text-align: center;
     font-size: 50px;
+  }
+
+  .dash {
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
   }
