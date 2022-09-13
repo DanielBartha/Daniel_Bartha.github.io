@@ -185,17 +185,46 @@ nav img {
     to {width: 40%;}
   }
 
-  .h2 {
+.h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
     text-align: center;
     font-size: 50px;
   }
 
-  .dash {
+.dash {
     font-size: 50px;
     color: #fff;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-bottom: 30px;
   }
+
+.linkedIn {
+    padding-top: 200px;
+    padding-left: 870px;
+    height: 65px;
+    width: 65px;
+}
+
+.gitHub {
+    padding-top: 200px;
+    padding-left: 50px;
+    height: 65px;
+    width: 65px;
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+}
+
+.wTr {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 100px;
+    padding-left: 30px;
+}
