@@ -228,3 +228,55 @@ nav img {
     padding-top: 100px;
     padding-left: 30px;
 }
+
+.ro {
+    height: 400px;
+    width: 600px;
+    padding-left: 650px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.marina, marina:link, marina:hover, marina:visited {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.hobbies {
+    height: 500px;
+    width: 500px;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 700px;
+}
+
+.hobbyList {
+    color: #fff;
+    font-size: larger;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.faqOl {
+    color: #fff;
+    font-size: 26px;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 120px;
+}
+
+.faq, faq:link, faq:hover, faq:visited {
+    color: #fff;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.answers {
+    color: #fff;
+    text-align: center;
+    font-size: larger;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding-top: 50px;
+}
