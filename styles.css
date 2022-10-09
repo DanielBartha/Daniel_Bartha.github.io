@@ -3,10 +3,15 @@
     padding: 0;
 }
 
+.homeButton {
+    height: 90px;
+    width: 90px;
+}
+
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/hz_building.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)),url(images/bgForMe.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -56,6 +61,10 @@ nav img {
     width: 100%;
 }
 
+.indexText {
+    width: 85%;
+}
+
 .text-box {
     width: 90%;
     color: #fff;
@@ -95,11 +104,16 @@ nav img {
 }
 
 .pic1 {
+    border-radius: 10%;
+    padding-top: 14px;
     width: 230px;
     height: 300px;
 }
 
 .pic2 {
+    border-radius: 10%;
+    border-width: 15px;
+    padding-top: 14px;
     height: 300px;
     width: 480px;
 }
@@ -123,6 +137,29 @@ nav img {
     color: #fff;
     text-decoration: underline;
     text-decoration-color: #add8e6;
+    background: -webkit-linear-gradient(rgb(158, 70, 226), rgb(54, 152, 226));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.profileParagraph {
+    width: 700px;
+    height: 100px;
+    background-color: rgb(61, 41, 90);
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    flex: auto;
+}
+
+.paragraph {
+    border-radius: 10%;
+    width: 800px;
+    height: 300px;
+    background-color: rgb(61, 41, 90);
+    padding-top: 1%;
+    padding-bottom: 0.5%;
 }
 
 .paragraph ul {
@@ -194,23 +231,26 @@ nav img {
 
 .dash {
     font-size: 50px;
-    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-bottom: 30px;
+    color: #fff;
     text-decoration: underline;
     text-decoration-color: #add8e6;
+    background: -webkit-linear-gradient(rgb(158, 70, 226), rgb(54, 152, 226));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 1%;
   }
 
 .linkedIn {
-    padding-top: 200px;
+    padding-top: 60px;
     padding-left: 870px;
     height: 65px;
     width: 65px;
 }
 
 .gitHub {
-    padding-top: 200px;
+    padding-top: 60px;
     padding-left: 50px;
     height: 65px;
     width: 65px;
