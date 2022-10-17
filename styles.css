@@ -3,6 +3,57 @@
     padding: 0;
 }
 
+.transparentBackgroundMultiPurpose {
+    align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgba(53, 7, 75, 0.789);
+    margin-top: 5%;
+    padding-bottom: 4%;
+    border-radius: 5%;
+}
+
+.transparentBackground {
+    border-radius: 5%;
+    align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: rgb(53, 7, 75, 0.789);
+    margin-top: 5%;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 60%;
+    height: 80%;
+    text-align: center;
+    color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+}
+
+    td {
+        border: 3px solid #add8e6;
+    }
+
+    thead {
+        background-color: cyan;
+    }
+
+    .passed {
+        background-color: green;
+    }
+
+    .failed {
+        background-color: red;
+    }
+
+    tr {
+        background-color: #14213d;
+    }
+
 .homeButton {
     height: 90px;
     width: 90px;
@@ -110,7 +161,8 @@ nav img {
     border-width: 10px;
     border-style: ridge;
     border-color: rgb(174, 108, 221);
-    border-radius: 20%
+    border-radius: 20%;
+    opacity: 100%;
 }
 
 .pic2 {
@@ -119,7 +171,8 @@ nav img {
     border-width: 10px;
     border-style: ridge;
     border-color: rgb(174, 108, 221);
-    border-radius: 20%
+    border-radius: 20%;
+    opacity: 100%;
 }
 
 .images {
@@ -135,6 +188,7 @@ nav img {
 }
 
 .pageTitle {
+    padding-top: 3%;
     font-size: 50px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
@@ -167,7 +221,7 @@ nav img {
     border-color: #f535aa;
     border-bottom: none;
     width: 800px;
-    height: 300px;
+    height: 450px;
     background-color: rgb(61, 41, 90);
     padding-top: 1%;
     padding-bottom: 0.5%;
@@ -251,18 +305,17 @@ nav img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-bottom: 1%;
+    padding-top: 3%;
   }
 
 .linkedIn {
-    padding-top: 60px;
-    padding-left: 870px;
+    margin-top: 4%;
+    margin-left: 45%;
     height: 65px;
     width: 65px;
 }
 
 .gitHub {
-    padding-top: 60px;
-    padding-left: 50px;
     height: 65px;
     width: 65px;
 }
@@ -325,16 +378,16 @@ nav img {
     width: 500px;
     align-items: center;
     padding-top: 20px;
-    padding-left: 700px;
+    padding-left: 420px;
 }
 
 .hobbyList {
     color: #fff;
     font-size: larger;
     text-align: center;
-    width: 80%;
+    width: 40%;
     height: 100px;
-    margin-left: 10%;
+    margin-left: 400px;
     background-color: rgb(61, 41, 90);
     list-style-type: none;
     border-radius: 15%;
@@ -342,6 +395,7 @@ nav img {
     border-style: solid;
     border-color: #f535aa;
     border-top: none;
+    padding-top: 1%;
 }
 
 .faqOl {
